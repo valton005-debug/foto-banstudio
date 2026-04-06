@@ -1,0 +1,11 @@
+name = "media-upload"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+[r2_buckets]
+binding = "R2_BUCKET"
+bucket_name = "events-media"
+
+[vars]
+ALLOWED_KEYS = "TOKEN-IM-TUAJ"
+R2_PUBLIC_URL = "https://media.tuaj.com"
